@@ -1,2 +1,0 @@
-# AWSLearningSeriesApp
-Stuff
