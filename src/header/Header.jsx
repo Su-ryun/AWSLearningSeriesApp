@@ -12,6 +12,7 @@ class Header extends Component {
         </div>
         <ul className="nav navbar-nav navbar-right">
           <li> <a href="/home"> HOME </a> </li>
+          <li> <a href="/submit"> SUBMIT </a> </li>
         </ul>
       </nav>
     )
