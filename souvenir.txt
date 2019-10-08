@@ -1,0 +1,46 @@
+That pool-id stuff:
+
+us-east-1_CxY9jdzO4
+
+App client id:
+
+5ornhn1iv9a5m44ba0vl6ha3ko
+
+window._config = {
+    cognito: {
+        userPoolId: 'us-east-1_CxY9jdzO4', // e.g. us-east-2_uXboG5pAb
+        userPoolClientId: '5ornhn1iv9a5m44ba0vl6ha3ko', // e.g. 25ddkmj4v6hfsfvruhpfi7n4hv
+        region: 'us-east-1' // e.g. us-east-2
+    },
+    api: {
+        invokeUrl: 'http://not-so-much-of-an-unique-bucket-name.s3-website-us-east-1.amazonaws.com/',
+    }
+};
+
+
+table name: Rides-hash
+partition key: RideId
+
+
+
+ARN: arn:aws:dynamodb:us-east-1:565166169329:table/No-hash
+
+
+My auth token: eyJraWQiOiI3OEZLSlZDczQyXC9mdjV0NkxKaE95N3dFc29KNkpKeXUxanNKTkFZcElxcz0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJjYmQ5MWQ5NS03ZjljLTQzNmQtYmQxYi0wZDk1ODY4MjQ1NzIiLCJhdWQiOiI1b3JuaG4xaXY5YTVtNDRiYTB2bDZoYTNrbyIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6ImEzMzk5ZmU3LTBlYTktNDRmMy04YWM3LTBkOThmZjhkY2QzNiIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNTcwNDk1MjA1LCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV9DeFk5amR6TzQiLCJjb2duaXRvOnVzZXJuYW1lIjoiZGxlZTY3QG1zdWRlbnZlci5lZHUiLCJleHAiOjE1NzA0OTg4MDUsImlhdCI6MTU3MDQ5NTIwNSwiZW1haWwiOiJkbGVlNjdAbXN1ZGVudmVyLmVkdSJ9.ONudEhRZO71Az4XlewXUm9ZXOBEaVaVTwGjstYQshKxkulJgAYeQSTIs0NYTE57kZZrB1qHze8VhUY6X4ujsH3JqOe9C7FmAgRfeRLX3Dahyzg1BsrriZeO-3RMdIrRe0fY_a4dcf2bm-MUaWSWc1T3EOZZisdLK6re5B_xLtns92G3rls1JDkudgbvDXqv_BP--W8DTXzn_iSYOEA8tNZKbJmMyQpfZAgkfcNODm3haGWfN8cCL3ef39juFDml98OUQk8vq5tJOZugAPxReltcMOh6NvbAsHm-31ZeIC7H18byBrrPWilIHSRooj54dzJDFJeev9-vbhYKKAzcjuQ
+
+
+They gave me the below when I created the AWS API Gatewayh stuff.
+arn:aws:lambda:us-east-1:565166169329:function:RequestUnicorn-hash
+
+The invoke URL after creating the API Gateway:
+https://80noykhlm5.execute-api.us-east-1.amazonaws.com/prod
+
+
+
+Send your doc -> *************
+
+SomeTagForVPC
+
+
+
+
